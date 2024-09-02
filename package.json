@@ -1,0 +1,39 @@
+{
+  "name": "conference-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "prod": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-fiv/conference-app-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im-fiv/conference-app-backend/issues"
+  },
+  "homepage": "https://github.com/im-fiv/conference-app-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "eslint": "^9.9.1",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "globals": "^15.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0"
+  }
+}
